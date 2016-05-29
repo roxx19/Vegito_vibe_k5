@@ -755,6 +755,7 @@ config SENSORS_LTR553
 	  To compile this driver as a module, choose M here: the
 	  module will be called ltr553.
 
+
 config SENSORS_MMC3416X
 	tristate "MMC3416xPJ 3-axis magnetic sensor driver"
 	depends on I2C
